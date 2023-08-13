@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit">
+            <a href="#" class="header__link_active"> главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link"> посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link"> об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img class="header__logo-image" src="./images/logo-black.svg" alt="" />
+      </a>
+      <address class="address">
+        <p>
+          <a class="header__link-address" href="tel:+99995555555"
+            >+9 999 555 5555</a
+          >
+        </p>
+        <p>
+          <a class="header__link-address" href="info@sobaka.ge"
+            >info@sobaka.ge</a
+          >
+        </p>
+        <p class="header__address">наб. Принсенграхт 263-265.</p>
+        <p class="header__address">Амстердам</p>
+      </address>
+    </header>
+    <main>
+      <div class="cover">
+        <div class="overlay">
+          <h1 class="cover__title">
+            <span class="aligned-text"
+              >он<span class="letter-spacing-extended">о</span></span
+            >
+            <span class="aligned-text_center"
+              >теб<span class="letter-spacing-extended">е</span></span
+            >
+            <span class="aligned-text_right"
+              >н<span class="letter-spacing-extended">адо</span></span
+            >
+          </h1>
+          <div class="cover__description">
+            <h2 class="cover__description-text">
+              аукцион вещей, в которые никто не &#8201;верил
+            </h2>
+            <button class="bet-button">сделать ставку</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

@@ -1,1 +1,158 @@
-/* место для вашего кода */
+.header {
+  max-width: 1340px;
+  margin: 92px 49px 92px 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+.header__links-list {
+  display: flex;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+  padding-right: 33px;
+}
+
+.header__link {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+  padding-right: 32px;
+}
+
+.header__logo {
+  margin-right: 180px;
+}
+
+.header__logo-image {
+  max-width: 148px;
+  max-height: 105px;
+}
+
+.address {
+  all: initial;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 5px;
+  margin-right: 4px;
+  align-self: flex-start;
+}
+
+.header__link-address {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  line-height: 24.9px;
+}
+
+.header__address {
+  line-height: 23.1px;
+}
+
+.cover {
+  max-width: 1440px;
+  height: 757px;
+  background-image: url("/images/cover.jpg");
+  background-size: cover;
+  background-position: 0px -17px;
+  z-index: 0;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: cover;
+ height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover__title {
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  padding-top: 173px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text {
+  align-self: flex-start;
+  padding-left: 50px;
+}
+
+.aligned-text_center {
+  align-self: center;
+  line-height: 154%;
+  padding-right: 29px;
+}
+
+.aligned-text_right {
+  align-self: flex-end;
+  line-height: 85%;
+  padding-right: 19px;
+}
+
+.letter-spacing-extended {
+  padding-left: 30px;
+}
+
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 143px;
+  padding-left: 422px;
+  word-spacing: 17px;
+}
+
+.cover__description-text {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.bet-button {
+  all: initial;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 80px;
+  align-self: baseline;
+  border: 1px solid white ;
+  padding: 12px 32px;
+}
