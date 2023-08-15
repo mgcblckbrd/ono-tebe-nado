@@ -1,1 +1,1 @@
-# Первая проектная работа
+https://github.com/triatlonist/ono-tebe-nado
