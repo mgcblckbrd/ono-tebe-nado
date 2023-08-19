@@ -55,7 +55,6 @@ footer__menu-link-active {
   font-style: normal;
   font-weight: 400;
   padding-top: 5px;
-
   align-self: flex-start;
   width: 240px;
 }
@@ -75,7 +74,6 @@ footer__menu-link-active {
 
 .cover {
   max-width: 1440px;
-
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: 0px -17px;
@@ -128,8 +126,9 @@ footer__menu-link-active {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: end;
   margin-top: 143px;
-  padding-left: 422px;
+  margin-right: 50px;
   word-spacing: 17px;
 }
 
@@ -141,6 +140,7 @@ footer__menu-link-active {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  white-space: normal;
 }
 
 .bet-button {
@@ -168,12 +168,8 @@ footer__menu-link-active {
 }
 .card {
   max-width: 430px;
- 
   display: flex;
- 
   flex-grow: 1;
-  
-
 }
 
 .overlay-lots {
@@ -182,17 +178,12 @@ footer__menu-link-active {
   height: 100%;
   width: 100%;
 }
-.card {
 
-}
-
-.lots__card-list-item{
+.lots__card-list-item {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 25px 25px;
-  
- 
 }
 
 .lots__card-list-item .card_type_film,
@@ -216,7 +207,6 @@ footer__menu-link-active {
 
 .lots__heading {
   color: #000;
-
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -230,21 +220,18 @@ footer__menu-link-active {
   margin-top: 27px;
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 .lots__card-list-item {
   list-style: none;
   display: flex;
   flex-direction: row;
-  
   flex-wrap: wrap;
   max-width: 1340px;
 }
 
 .card__title {
   color: #fff;
-
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -257,7 +244,6 @@ footer__menu-link-active {
 
 .card__text {
   color: #fff;
-
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -276,15 +262,12 @@ footer__menu-link-active {
 
 .card__text-one {
   margin-top: 202px;
-
 }
 .card__text-two {
-
   margin-top: 31px;
 }
 
 .card__text-three {
-
   margin-top: 80px;
 }
 
@@ -305,6 +288,7 @@ footer__menu-link-active {
   display: flex;
   margin-top: 180px;
   margin-left: 145px;
+  max-width: 1340px;
 }
 
 .about__logo {
@@ -334,7 +318,6 @@ footer__menu-link-active {
 
 .about__title {
   color: #000;
-
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -343,7 +326,7 @@ footer__menu-link-active {
 }
 
 .about__text {
-  width: 885px;
+  max-width: 885px;
   margin-top: 100px;
   color: #000;
   font-size: 20px;
@@ -352,13 +335,12 @@ footer__menu-link-active {
   line-height: normal;
 }
 
-.about__text-paragraph {
+.about__text-paragraph:nth-child(2) {
   margin-top: 25px;
 }
 
 .footer {
   max-width: 1340px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
