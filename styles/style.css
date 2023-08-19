@@ -168,10 +168,12 @@ footer__menu-link-active {
 }
 .card {
   max-width: 430px;
-
+ 
   display: flex;
-  flex-wrap: wrap;
+ 
   flex-grow: 1;
+  
+
 }
 
 .overlay-lots {
@@ -179,6 +181,18 @@ footer__menu-link-active {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+.card {
+
+}
+
+.lots__card-list-item{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px 25px;
+  
+ 
 }
 
 .lots__card-list-item .card_type_film,
@@ -197,6 +211,7 @@ footer__menu-link-active {
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
+  margin-right: 0;
 }
 
 .lots__heading {
@@ -215,13 +230,16 @@ footer__menu-link-active {
   margin-top: 27px;
   margin-left: 50px;
   margin-right: 50px;
+
 }
 
 .lots__card-list-item {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  
+  flex-wrap: wrap;
+  max-width: 1340px;
 }
 
 .card__title {
