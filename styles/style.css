@@ -16,12 +16,12 @@ h2 {
   display: flex;
 }
 
-.header__link_active,
-footer__menu-link_active {
+.header__link-active,
+footer__menu-link-active {
   text-decoration: none;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item-no-bullit {
   list-style: none;
   padding-right: 33px;
 }
@@ -55,18 +55,21 @@ footer__menu-link_active {
   font-style: normal;
   font-weight: 400;
   padding-top: 5px;
-  margin-right: 4px;
+
   align-self: flex-start;
+  width: 240px;
 }
 
-.header__link-address {
+.header__link-address,
+.footer__link-address {
   text-decoration: none;
   border-bottom: 1px solid black;
   padding-bottom: 1px;
   line-height: 24.9px;
 }
 
-.header__address {
+.header__address,
+.footer__address {
   line-height: 23.1px;
 }
 
@@ -105,13 +108,13 @@ footer__menu-link_active {
   padding-left: 50px;
 }
 
-.aligned-text_center {
+.aligned-text-center {
   align-self: center;
   line-height: 154%;
   padding-right: 29px;
 }
 
-.aligned-text_right {
+.aligned-text-right {
   align-self: flex-end;
   line-height: 85%;
   padding-right: 19px;
@@ -144,7 +147,7 @@ footer__menu-link_active {
   all: initial;
   color: #fff;
   text-align: center;
-
+  font-family: Raleway, "Arial", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +162,6 @@ footer__menu-link_active {
 
 .lots {
   min-width: 1340px;
-  min-height: 555px;
 }
 
 .card-link {
@@ -182,19 +184,20 @@ footer__menu-link_active {
   width: 100%;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+.lots__card-list-item .card_type_film, .card_type_book, .card_type_picture {
   background-size: cover;
 }
 
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
 .card_type_book {
-  background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
+  background-image: url(../images/card-lot-02.jpg);  
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
 }
 
 .lots__heading {
@@ -246,37 +249,38 @@ footer__menu-link_active {
   margin-left: 40px;
 }
 
-.card__title-3 {
+.card__title-three {
   width: 350px;
   height: 74px;
 }
 
-.card__text-1 {
+.card__text-one {
   margin-top: 202px;
   width: 350px;
   height: 96px;
 }
-.card__text-2 {
+.card__text-two {
   width: 350px;
   height: 240px;
   margin-top: 31px;
 }
 
-.card__text-3 {
+.card__text-three {
   width: 350px;
   height: 192px;
   margin-top: 85px;
 }
 
 .lots__look-more-link {
+  display: inline-block;
   color: #000;
-
+  margin-top: 30px;
+  margin-left: 40px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  margin-left: 90px;
   border-bottom: 1px solid black;
 }
 
