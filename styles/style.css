@@ -247,7 +247,6 @@ h2 {
 .card__title-three {
   margin: auto;
   margin-top: 50px;
-  
 }
 .card__text {
   color: #fff;
@@ -332,6 +331,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  margin-bottom: 100px;
 }
 
 .about__text {
@@ -361,7 +361,6 @@ h2 {
   margin: auto;
   margin-top: 176px;
   margin-bottom: 90px;
-  
   margin-right: 50px;
   margin-left: 50px;
 }
