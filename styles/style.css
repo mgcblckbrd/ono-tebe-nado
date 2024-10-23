@@ -52,3 +52,72 @@
   margin-inline-end: 80px;
   line-height: 24.3px;
 }
+
+/* начало секции с заголовком */
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  inline-size: 100%;
+  /* block-size: 757px; */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.cover__title {
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 120px;
+  padding-block-start: 165px;
+  padding-inline-start: 50px;
+  letter-spacing: 30px;
+}
+
+.cover__title > span {
+  display: block;
+}
+
+.aligned-text_center {
+  padding-inline-start: 285px;
+  padding-block-start: 5px;
+}
+
+.aligned-text_right {
+  padding-inline-start: 585px;
+}
+
+.letter-spacing-extended {
+  padding-inline-start: 30px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 125px;
+  padding-block-end: 50px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 18px;
+  text-transform: uppercase;
+  padding-inline-start: 80px;
+}
+
+.bet-button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  inline-size: 256px;
+  block-size: 51px;
+}
+
+.bet-button {
+  margin-inline-end: 50px;
+  cursor: pointer;
+}
