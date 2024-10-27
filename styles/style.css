@@ -87,25 +87,8 @@
   letter-spacing: 30px;
   position: relative;
   z-index: 2;
+  margin-inline-end: 20px;
 }
-
-/* .cover__title > span {
-  display: block;
-}
-
-.aligned-text_center {
-  padding-inline-start: 285px;
-  padding-block-start: 5px;
-}
-
-.aligned-text_right {
-  padding-inline-start: 585px;
-}
-
-.letter-spacing-extended {
-  padding-inline-start: 30px;
-
-} */
 
 .span-block {
   display: block;
@@ -114,21 +97,17 @@
 
 .aligned-text_center {
   text-align: center;
-  margin-inline-end: 50px;
+  margin-inline-end: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-inline-end: 20px;
+
 }
 
 .letter-spacing-extended {
   letter-spacing: 60px;
- 
 }
-
-
-
 
 .cover__description {
   display: flex;
@@ -325,5 +304,3 @@
   inline-size: 48px;
   gap: 48px;
 }
-
-
