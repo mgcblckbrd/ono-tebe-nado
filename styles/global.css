@@ -39,3 +39,7 @@ h2,
 h3 {
   text-transform: uppercase;
 }
+
+ul {
+  list-style: none;
+}
